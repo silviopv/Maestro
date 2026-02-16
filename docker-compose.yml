@@ -12,7 +12,7 @@ services:
     # No network_mode: host, a seção ports é ignorada pelo Docker
     # mas mantemos para documentação das portas utilizadas
     ports:
-     - "8080:8080/tcp"   # WEBUI/HLS
+     - "8083:8083/tcp"   # WEBUI/HLS
      - "443:443/tcp"     # WEBUI SSL
      - "50000:50000/udp" # BONDING
      - "40000-40050:40000-40050/udp" # Intercom
